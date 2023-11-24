@@ -4,7 +4,7 @@ import requests
 import re
 
 # Kunci API Shodan Anda
-Shodan_API_Key = "xeGycQNQ4uUl8UUlMKBYUM7199EqSHOs"
+Shodan_API_Key = "API KEY"
 api = shodan.Shodan(Shodan_API_Key)
 
 # Fungsi untuk mengirim permintaan pencarian ke Shodan API
