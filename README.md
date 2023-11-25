@@ -1,17 +1,22 @@
-# Pencarian Kredensial Keamanan menggunakan Shodan 😎
+# Shodan Explorer 😎
 
 ## Deskripsi
-Kode ini memanfaatkan API Shodan untuk mencari instance DVWA (Damn Vulnerable Web Application) dan mencoba kredensial default pada setiap instance yang ditemukan. Ini dapat membantu pengembang dan profesional keamanan untuk mengidentifikasi dan mengatasi potensi kerentanan keamanan pada instalasi DVWA.
+Selamat datang di Shodan Explorer, alat hebat untuk mengeksplorasi dunia perangkat dan layanan terhubung! Proyek ini dibuat oleh Saya  untuk memfasilitasi pencarian dan analisis melalui Shodan API.
 
 ## Fitur Utama
-- **Pencarian**: Mencari instance DVWA berdasarkan judul halaman.
-- **Coba Kredensial**: Mensimulasikan pengguna nyata dengan mencoba kredensial default pada setiap instance yang ditemukan.
-- **Identifikasi Kredensial Valid**: Memberikan informasi ketika kredensial admin:password berhasil diuji pada suatu instance.
+* Mencari Perusahaan: Temukan perangkat berdasarkan nama perusahaan.
+* Mencari IP: Peroleh informasi lengkap tentang perangkat berdasarkan alamat IP.
+* Pencarian Berdasarkan Kata Kunci: Temukan perangkat berdasarkan kata kunci tertentu.
+* Pencarian Berdasarkan Negara: Telusuri perangkat di suatu negara berdasarkan kode negara.
+* Pencarian Berdasarkan Port: Identifikasi perangkat berdasarkan nomor port tertentu.
+* Pencarian Berdasarkan Hostname: Temukan perangkat berdasarkan hostname.
+* Pencarian Berdasarkan Kota: Cari perangkat di suatu kota tertentu.
+* Pencarian Berdasarkan Judul: Temukan perangkat berdasarkan judul tertentu.
+* Pencarian Berdasarkan Nama Produk: Telusuri perangkat berdasarkan nama produk.
 
 ## Cara Menggunakan
-1. Pastikan Anda memiliki kunci API Shodan yang valid.
-2. Jalankan skrip untuk mencari dan menguji kredensial pada instance DVWA.
-3. Periksa output untuk melihat instance yang rentan dan kredensial yang valid.
+1. Pastikan Anda memiliki kunci API Shodan dan isi pada variabel shodan_api_key.
+2. Jalankan skrip dan pilih opsi sesuai kebutuhan Anda.
 
 ## Catatan
 Gunakan kode ini dengan bijak dan hanya pada sistem yang Anda miliki izin untuk diuji. Tidak disarankan untuk digunakan pada sistem yang bukan milik Anda tanpa izin tertulis.
